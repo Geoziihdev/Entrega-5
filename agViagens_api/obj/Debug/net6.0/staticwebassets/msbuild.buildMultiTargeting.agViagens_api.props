@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\agViagens_api.props" />
+</Project>
