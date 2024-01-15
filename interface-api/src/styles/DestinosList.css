@@ -1,0 +1,83 @@
+/* components/DestinosList.css */
+
+.destinos-list-container {
+  position: relative;
+  background-image: url('/src/imagens/pelourinho-salvador-bahia.png');
+  opacity: 0.7;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.destinos-list-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.destinos-list-title {
+
+  /* components/DestinosList.css */
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #0c3bd6; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(9, 9, 9, 0.3);
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+  display: inline-block; /* Adicione essa propriedade para ajustar o tamanho do fundo ao texto */
+
+}
+
+/* Ajustes na caixa de filtro */
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #d6a616; /* Adicione uma borda */
+  border-radius: 5px; /* Borda mais arredondada */
+  outline: none;
+}
+
+/* Adiciona sombra na caixa de filtro quando focada */
+input:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-color: #f1f1f9; /* Mude a cor da borda ao focar */
+}
+
+/* Botão de pesquisa */
+button {
+  padding: 10px 20px;
+  background-color: #d6a616;
+  color: #f1f1f9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b28912; /* Mudança de cor ao passar o mouse */
+}
+
+/* ... o restante do seu CSS permanece inalterado ... */

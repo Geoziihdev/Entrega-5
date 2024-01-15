@@ -1,0 +1,26 @@
+/* Em styles/Home.css (ou o arquivo que você preferir) */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../imagens/nortee.webp') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif; /* Adapte a família de fontes conforme necessário */
+}
+
+.container {
+  text-align: center;
+  padding: 100px;
+  color: #fff; /* Adapte a cor do texto conforme necessário */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha quando não há espaço suficiente */
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.5); /* Adapte a opacidade conforme necessário */
+  padding: 20px; /* Adapte conforme necessário */
+  border-radius: 10px; /* Adapte conforme necessário */
+}
+
+/* Restante do seu CSS permanece o mesmo */
